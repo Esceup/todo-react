@@ -1,0 +1,20 @@
+{ 
+  "name": "Электродвигатель", 
+  "description": "Мы проектируем системы управления различного уровня сложности для производственных линий, систем водоснабжения, пожаротушения, вентиляции и освещения.", 
+  "start_url": "/", 
+  "lang": "ru ", 
+  "theme_color": "#cecece", 
+  "display": "автономный", 
+  "icons": [ 
+    { 
+      "src": "https://xn--80addceesnhi0axzh6mb.xn--p1ai/main/", 
+      "sizes": "192x192", 
+      "type": "icon/main-mibile.png" 
+    } 
+  ], 
+  "screenshots": [ 
+    { 
+      " src": "https://xn--80addceesnhi0axzh6mb.xn--p1ai/main/" 
+    } 
+  ] 
+}
