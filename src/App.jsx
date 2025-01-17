@@ -9,7 +9,8 @@ import "./App.css";
 
 const App = () => {
   let storedItems;
-  if(JSON.parse(localStorage.getItem('todos')).length === 0) {
+if(localStorage.getItem('todos')){
+    if(JSON.parse(localStorage.getItem('todos')).length === 0) {
     storedItems = [{id: 1, title: '22500 квартира', completed: false},
             {id: 2, title: '5000 бензин', completed: false},
             {id: 3, title: '4600 кредит', completed: false},
@@ -34,6 +35,7 @@ const App = () => {
     }else {
        storedItems = JSON.parse(localStorage.getItem('todos'))
     }
+}
  
  const [todos, setTodos] = useState(storedItems)
   
