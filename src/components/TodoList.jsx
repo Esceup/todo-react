@@ -43,7 +43,7 @@ export default function TodoList({ list, setList, searchFilter }) {
     return (
       // <Button onClick={deleteAllTask}>Удалить всё</Button>
       <>
-      <Button onClick={() => all()}>All</Button>
+      {/* <Button onClick={() => all()}>All</Button> */}
             {list?.length > 0 ? 
             
             (<ul>
