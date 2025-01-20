@@ -11,39 +11,13 @@ const App = () => {
   let storedItems;
 // 
     if(localStorage.getItem('todos') && JSON.parse(localStorage.getItem('todos')).length === 0){
-          storedItems = [{id: 1, title: '22500 квартира', completed: false},
-                      {id: 2, title: '5000 бензин', completed: false},
-                      {id: 3, title: '4600 кредит', completed: false},
-                    {id: 4, title: '22000 продукты', completed: false},
-                      {id: 5, title: '2000 обслуживание машины', completed: false},
-                    {id: 6, title: '2000 заказать/сходить', completed: false},
-                      {id: 7, title: '5000 коммуналка', completed: false},
-                    {id: 8, title: '1000 страховка машины', completed: false},
-                      {id: 9, title: '2500 подарки на нг', completed: false},
-                    {id: 10, title: '1000 лазер', completed: false},
-                      {id:11, title: '4000 ногти + ресницы', completed: false},
-                    {id: 12, title: '1500 гигиена', completed: false},
-                      {id: 13, title: '5000 непредвиденные расходы', completed: false},
-                    {id: 14, title: '3300 абонемент Дашуня', completed: false},
-                      {id: 15, title: '500 стрижка', completed: false},
-                    {id: 16, title: '500 тариф', completed: false},
-                      {id: 17, title: '3000 аванс Дашуня', completed: false},
-                    {id: 18, title: '3000 аванс Даня', completed: false},
-                      {id: 19, title: ' 3000 зп Дашуня', completed: false},
-                    {id: 20, title: ' 3000 зп Даня', completed: false},
-                      ]
-     
-    }else if(localStorage.getItem('todos')){
-       storedItems = JSON.parse(localStorage.getItem('todos'))
-      //  JSON.parse(localStorage.getItem('todos')).length === 0
-    } else {
-      storedItems = [{id: 1, title: '22500 квартира', completed: false},
+          storedItems = [{id: 1, title: '23500 квартира', completed: false},
             {id: 2, title: '5000 бензин', completed: false},
             {id: 3, title: '4600 кредит', completed: false},
-          {id: 4, title: '22000 продукты', completed: false},
+          {id: 4, title: '24000 продукты(2 месяца на 1к меньше)', completed: false},
             {id: 5, title: '2000 обслуживание машины', completed: false},
           {id: 6, title: '2000 заказать/сходить', completed: false},
-            {id: 7, title: '5000 коммуналка', completed: false},
+            {id: 7, title: '2500 коммуналка', completed: false},
           {id: 8, title: '1000 страховка машины', completed: false},
             {id: 9, title: '2500 подарки на нг', completed: false},
           {id: 10, title: '1000 лазер', completed: false},
@@ -56,7 +30,33 @@ const App = () => {
             {id: 17, title: '3000 аванс Дашуня', completed: false},
           {id: 18, title: '3000 аванс Даня', completed: false},
             {id: 19, title: ' 3000 зп Дашуня', completed: false},
-          {id: 20, title: ' 3000 зп Даня', completed: false},
+          {id: 20, title: ' 4000 зп Даня', completed: false},
+            ]
+     
+    }else if(localStorage.getItem('todos')){
+       storedItems = JSON.parse(localStorage.getItem('todos'))
+      //  JSON.parse(localStorage.getItem('todos')).length === 0
+    } else {
+      storedItems = [{id: 1, title: '23500 квартира', completed: false},
+            {id: 2, title: '5000 бензин', completed: false},
+            {id: 3, title: '4600 кредит', completed: false},
+           {id: 4, title: '24000 продукты(2 месяца на 1к меньше)', completed: false},
+            {id: 5, title: '2000 обслуживание машины', completed: false},
+          {id: 6, title: '2000 заказать/сходить', completed: false},
+            {id: 7, title: '2500 коммуналка', completed: false},
+          {id: 8, title: '1000 страховка машины', completed: false},
+            {id: 9, title: '2500 подарки на нг', completed: false},
+          {id: 10, title: '1000 лазер', completed: false},
+            {id:11, title: '4000 ногти + ресницы', completed: false},
+          {id: 12, title: '1500 гигиена', completed: false},
+            {id: 13, title: '5000 непредвиденные расходы', completed: false},
+          {id: 14, title: '3300 абонемент Дашуня', completed: false},
+            {id: 15, title: '500 стрижка', completed: false},
+          {id: 16, title: '500 тариф', completed: false},
+            {id: 17, title: '3000 аванс Дашуня', completed: false},
+          {id: 18, title: '3000 аванс Даня', completed: false},
+            {id: 19, title: ' 3000 зп Дашуня', completed: false},
+          {id: 20, title: ' 4000 зп Даня', completed: false},
             ]
     }
 
